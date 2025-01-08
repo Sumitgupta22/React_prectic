@@ -1,7 +1,7 @@
 //import React from "react";
 
 const Card = (props) => {
-  console.log(props);
+  //console.log(props);
   return (
     <>
       <div className="text-black mr-2 inline-block p-6 text-center rounded bg-white">
