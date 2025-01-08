@@ -7,9 +7,9 @@ const App = () => {
   const user = "naman";
   return (
     <>
-      <Card user={user} />
-      <Card user="ramesh" />
-      {/* this is prmps */}
+      <div className="p-10">
+        <Card uname="sumit" age="22" city="satna"></Card>
+      </div>
     </>
   );
 };

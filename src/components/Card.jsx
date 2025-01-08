@@ -1,11 +1,16 @@
 import React from "react";
 
-const Card = (name) => {
-  console.log(name.user);
+const Card = (props) => {
+  console.log(props);
   return (
     <>
-      <h1 className="text-3xl">This is a cade</h1>
-      <h1 className="text-3xl">user name is {name.user} </h1>
+      <div className="text-black inline-block p-6 text-center rounded bg-slate-500">
+        <h1>USERNAME {props.uname} SURNAME</h1>
+        <h2>
+          CITY {props.city} , age {props.age}
+        </h2>
+        <button>Submit</button>
+      </div>
     </>
   );
 };
