@@ -4,15 +4,13 @@ const Card = (props) => {
   //console.log(props);
   return (
     <>
-      <div className="text-black mr-2 inline-block p-6 text-center rounded bg-white">
+      <div className="text-black mt-2 mr-2 inline-block p-6 text-center rounded bg-white">
         <img
           src={props.photo}
-          className="ml-1 h-32 w-32 align-middle rounded-full mb-3"
+          className="m-auto h-32 w-32 align-middle rounded-2xl mb-3"
           alt=""
         />
-        <h1 className="text-2xl font-semibold mb-4">
-          {props.uname} Age({props.age})
-        </h1>
+        <h1 className="text-2xl text-wrap font-semibold mb-4">{props.uname}</h1>
 
         <h2 className="text-xl font-semibold mb-0">{props.city}</h2>
         <h2 className="text-xl text-blue-700 font-semibold mb-2">
